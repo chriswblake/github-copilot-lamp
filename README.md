@@ -31,3 +31,7 @@ If not connected to an existing wifi, it will broadcast a tempory wifi network f
 1. In a web browser, navigate to `http://copilot-lamp.local` or use the WLED app.
     - [iOS App](https://apps.apple.com/us/app/wled/id1475695033)
     - [Android App](https://play.google.com/store/apps/details?id=com.aircoookie.WLED)
+
+# Build your own
+That's cool and all, but how do I make one?!  
+Check out the [build your own](docs/build-your-own.md) page for a step-by-step guide. 🧑‍🚀
