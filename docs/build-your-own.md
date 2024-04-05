@@ -69,12 +69,12 @@ Select the USB serial device.
 1. On the device's main page, in the top right, click the **Config** button.
 1. At the bottom, select **Security and Updates**
 1. Scroll to the bottom and look for the backup options.
-1. Install the presets using the `/wled-config/wled_presets` file.
+1. Install the presets using the `/wled-config/wled_config_60_led_with_touch.json` file.
 This will do the following:
     - Install playlist 1 - Slow effects. (Single press action)
     - Install playlist 2 - Fast random effects. (Double press action)
     - Install preset 3 - LEDs off (Hold 2 seconds action)
-1. Install the device configuration using the `wled-config/wled_presets_playlists.json` file.
+1. Install the device configuration using the `wled-config/wled_config_60_led_with_touch.json` file.
 This will do the following:
     - Set the device to use 60 LEDs and max 1 amp power.
     - Configure use of the touch sensor.
