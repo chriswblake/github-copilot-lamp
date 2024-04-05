@@ -37,6 +37,8 @@ The lamp is designed to be assembled by hand, minus the small amount of solderin
 The .STL files for all of the printable parts are in the `/models` folder.
 
 - No supports are required.
+- Avoid sparse infill for the backplate to strengthen the connectors.
+- Avoid sparse infill for the LED chamber if you don't want to see a pattern through the glowing.
 - For a textured look, consider a textured plate. [[US]](https://us.store.bambulab.com/products/bambu-dual-sided-textured-pei-plate)
 
 > [!NOTE]  
