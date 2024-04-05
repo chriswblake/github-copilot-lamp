@@ -124,3 +124,15 @@ Make sure the cables come out of the side with the wifi module.
 > You must connect the touch sensor. If not, it will believe the touch sensor
 is being held down and continuously attempt to turn of the LEDs.
 
+## 3 Main Assembly
+
+### LED Install
+1. Starting in the bottom left, remove part of the adhesive tape on the LED
+strip and attach to the support wall. Run the lead wire into the ear. Continue
+attaching the the LED to the wall similar to the image below.
+![](assemble/led-chamber-1.jpg)
+
+1. Insert the touch sensor in the rectangular slot in the forehead area.
+Ensuring the touch pad is facing outward. Route the cables between the up between the guides
+and to the right.
+![](assemble/led-chamber-2.jpg)
