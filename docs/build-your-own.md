@@ -51,3 +51,35 @@ The .STL files for all of the printable parts are in the `/models` folder.
 <img src="components/faceplate.jpg" width="200px"> | Faceplate | The outer shell for changing color. |
 <img src="components/eyes.jpg" width="200px"> | Eyes | Interchange eye inserts for the face of the LED chamber. |
 
+
+## 1 Install Software
+If you order the microcontrollers from the provided link, there
+is a good chance that 1 of the 5 boards will be bad.
+It's important to start with installing the software.
+
+1. Connect the microcontroller to your computer using the USB cable.
+1. Open a web browser and navigate to the [WLED install page](https://install.wled.me/).
+1. Click the **Install** button and a window will appear.
+Select the USB serial device.
+1. Follow the instructions and wait a few minutes for the install.
+    - If this seems to have trouble, try a different board.
+1. When asked, enter your WiFi details.
+    - Accessing the device locally is required to upload the configuration.
+1. When the install is finished, click the **Visit Device** button.
+1. On the device's main page, in the top right, click the **Config** button.
+1. At the bottom, select **Security and Updates**
+1. Scroll to the bottom and look for the backup options.
+1. Install the presets using the `/wled-config/wled_presets` file.
+This will do the following:
+    - Install playlist 1 - Slow effects. (Single press action)
+    - Install playlist 2 - Fast random effects. (Double press action)
+    - Install preset 3 - LEDs off (Hold 2 seconds action)
+1. Install the device configuration using the `wled-config/wled_presets_playlists.json` file.
+This will do the following:
+    - Set the device to use 60 LEDs and max 1 amp power.
+    - Configure use of the touch sensor.
+    - Assign the touch sensor to the playlists.
+    - Configure a timer option to turn on the lamp at 9am and off at 5pm.
+    - Clear the WiFi information.
+    - Set it to broadst a WiFi network named `copilot-lamp` with default password `copilot-lamp`.
+    
