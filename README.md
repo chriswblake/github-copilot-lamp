@@ -32,6 +32,25 @@ If not connected to an existing wifi, it will broadcast a tempory wifi network f
     - [iOS App](https://apps.apple.com/us/app/wled/id1475695033)
     - [Android App](https://play.google.com/store/apps/details?id=com.aircoookie.WLED)
 
+### Change eye color
+
+1. Using a screwdriver, insert the end through the holes in the back of the lamp.
+![](docs/README/eyes-change-1.jpg)
+
+1. Continue to push and the eye insert will pop forward.
+![](docs/README/eyes-change-2.jpg)
+
+1. Insert the other colored eyes!
+
+### Change helmet color (faceplate)
+
+1. Grip the top of the mask and gently push into the white space of the goggles. You will feel the connectors pop out. 
+![](docs/README/faceplate-change-1.jpg)
+
+1. Flip the lamp over, and repeat on the other side. Once disconnected, slide the faceplate off.
+
+1. Apply the new faceplate!
+
 # Build your own
 That's cool and all, but how do I make one?!  
 Check out the [build your own](docs/build-your-own.md) page for a step-by-step guide. 🧑‍🚀
