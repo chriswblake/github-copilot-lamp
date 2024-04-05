@@ -180,3 +180,21 @@ Pinch the USB cable under the angled guide bar to secure the microcontroller.
 ![](assemble/eyes-2.jpg)
 
 
+
+## Other Advanced Tasks
+
+### Add your GitHub Handle
+If you would like to add your GitHub username, there is already a feature
+in the 3d model [`/models/github-copilot-lamp.f3d`](../models/github-copilot-lamp.f3d).
+Open it using [Autodesk Fusion](https://www.autodesk.com/products/fusion-360/personal), change the text, and export the STL.
+
+### Switch to USB-C.
+- ESP8266 Microcontroller USB-C + WiFi [[US]](https://www.amazon.com/dp/B0BHW1CNCM)
+- Short USB-C Extension [[US]](https://www.amazon.com/dp/B01D8FMPP6)
+
+## Troubleshooting
+
+### Reset Device 
+- Reset wifi: hold button 0 for >6 seconds.
+- Reset WLED: hold button 0 for >12 seconds.
+
