@@ -136,3 +136,24 @@ attaching the the LED to the wall similar to the image below.
 Ensuring the touch pad is facing outward. Route the cables between the up between the guides
 and to the right.
 ![](assemble/led-chamber-2.jpg)
+
+### Microcontroller Install
+1. Insert the electronics plate.
+![](assemble/electronics-plate-1.jpg)
+
+1. Insert the microcontroller into the holder.
+Ensure the WiFi module is facing down (toward the face).
+Pinch the USB cable under the angled guide bar to secure the microcontroller.
+![](assemble/electronics-plate-2.jpg)
+
+1. Twist the USB cable around some of the left cable guides and pinc it into the holder.
+![](assemble/electronics-plate-3.jpg)
+
+    > [!NOTE]  
+    > You might consider adding a bit of glue behind the usb extension's socket
+    > to prevent the cable being pulled out. The holes are backup for zip ties
+    > to hold the USB cable down.
+
+1. Connect the LED cable and touch sensor cables to the microcontroller.
+![](assemble/electronics-plate-4.jpg)
+
