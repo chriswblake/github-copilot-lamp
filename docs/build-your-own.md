@@ -29,3 +29,25 @@ If you would like to build yours a bit more professionally, you can use the foll
 > [!NOTE]
 > **Tip:** Don't have a 3D printer? Check if your local library has a makerspace. They might be able to print the parts for you! 🤩
 
+
+# Instructions
+The lamp is designed to be assembled by hand, minus the small amount of soldering. It's printed with regular PLA filament on a printer with at least 200x200mm print area.
+
+## 1. Print the parts
+The .STL files for all of the printable parts are in the `/models` folder.
+
+- No supports are required.
+- For a textured look, consider a textured plate. [[US]](https://us.store.bambulab.com/products/bambu-dual-sided-textured-pei-plate)
+
+> [!NOTE]  
+> The backplate, faceplate, and eyes don't have to be black.
+> Try printing them in another color or with fun multicolor or shiny filament! 🦄 🤩
+
+| Image | Part | Description |
+| -- | -- | -- |
+<img src="components/led-chamber.jpg" width="200px"> | LED Chamber | The part that glows, where the LEDs are attached. |
+<img src="components/electronics-plate.jpg" width="200px"> | Electronics Plate | Sits inside the LED chamber for the microcontroller and cable management. |
+<img src="components/backplate.jpg" width="200px"> | Backplate | The back cover of the LED chamber. |
+<img src="components/faceplate.jpg" width="200px"> | Faceplate | The outer shell for changing color. |
+<img src="components/eyes.jpg" width="200px"> | Eyes | Interchange eye inserts for the face of the LED chamber. |
+
