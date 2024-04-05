@@ -52,12 +52,12 @@ The .STL files for all of the printable parts are in the `/models` folder.
 <img src="components/eyes.jpg" width="200px"> | Eyes | Interchange eye inserts for the face of the LED chamber. |
 
 
-## 1 Install Software
+## 1. Install Software
 If you order the microcontrollers from the provided link, there
 is a good chance that 1 of the 5 boards will be bad.
 It's important to start with installing the software.
 
-1. Connect the microcontroller to your computer using the USB cable.
+1. Connect the microcontroller to your computer using a USB cable.
 1. Open a web browser and navigate to the [WLED install page](https://install.wled.me/).
 1. Click the **Install** button and a window will appear.
 Select the USB serial device.
@@ -69,12 +69,12 @@ Select the USB serial device.
 1. On the device's main page, in the top right, click the **Config** button.
 1. At the bottom, select **Security and Updates**
 1. Scroll to the bottom and look for the backup options.
-1. Install the presets using the `/wled-config/wled_config_60_led_with_touch.json` file.
+1. Install the presets using the [`/wled-config/wled_presets_playlists.json`](../wled-config/wled_presets_playlists.json) file.  
 This will do the following:
     - Install playlist 1 - Slow effects. (Single press action)
     - Install playlist 2 - Fast random effects. (Double press action)
     - Install preset 3 - LEDs off (Hold 2 seconds action)
-1. Install the device configuration using the `wled-config/wled_config_60_led_with_touch.json` file.
+1. Install the device configuration using the [`/wled-config/wled_config_60_led_with_touch.json`](../wled-config/wled_config_60_led_with_touch.json) file.  
 This will do the following:
     - Set the device to use 60 LEDs and max 1 amp power.
     - Configure use of the touch sensor.
@@ -83,9 +83,9 @@ This will do the following:
     - Clear the WiFi information.
     - Set it to broadst a WiFi network named `copilot-lamp` with default password `copilot-lamp`.
     
-## 2 Pre Assembly and Testing
+## 2. Pre-Assembly and Testing
 
-## Microcontroller
+### Microcontroller
 1. Attach the LED lead cable (socket side) to the microcontroller.
 Make sure the cables come out of the side with the wifi module.
     - Red Wire: 5V (power)
@@ -106,13 +106,13 @@ Make sure the cables come out of the side with the wifi module.
 2. Attach the short micro-usb extension.
 ![](assemble/microcontroller-3.jpg)
 
-## LED Strip
+### LED Strip
 
 1. Keeping the plug end, cut the 5 meter LED strip to 60 LEDs (1 meter).
-    > [!WARNING]  
-    > The ~1 meter length is more important than the 60 LEDS.
-    > If the strip is too long it may not fit. If it is too short, then parts may not glow. 😕
-    ![](assemble/led-strip-1.jpg)
+> [!WARNING]  
+> The ~1 meter length is more important than the 60 LEDS.
+> If the strip is too long it may not fit. If it is too short, then parts may not glow. 😕
+![](assemble/led-strip-1.jpg)
 
 ## Pre-check Testing
 
@@ -124,7 +124,7 @@ Make sure the cables come out of the side with the wifi module.
 > You must connect the touch sensor. If not, it will believe the touch sensor
 is being held down and continuously attempt to turn of the LEDs.
 
-## 3 Main Assembly
+## 3. Main Assembly
 
 ### LED Install
 1. Starting in the bottom left, remove part of the adhesive tape on the LED
@@ -149,10 +149,10 @@ Pinch the USB cable under the angled guide bar to secure the microcontroller.
 1. Twist the USB cable around some of the left cable guides and pinc it into the holder.
 ![](assemble/electronics-plate-3.jpg)
 
-    > [!NOTE]  
-    > You might consider adding a bit of glue behind the usb extension's socket
-    > to prevent the cable being pulled out. The holes are backup for zip ties
-    > to hold the USB cable down.
+> [!NOTE]  
+> You might consider adding a bit of glue behind the usb extension's socket
+> to prevent the cable being pulled out. The holes are backup for zip ties
+> to hold the USB cable down.
 
 1. Connect the LED cable and touch sensor cables to the microcontroller.
 ![](assemble/electronics-plate-4.jpg)
@@ -161,9 +161,9 @@ Pinch the USB cable under the angled guide bar to secure the microcontroller.
 1. Attach in the backplate by gently pressing it into the LED chamber.
 ![](assemble/backplate-1.jpg)
 
-    > [!WARNING]  
-    > Don't apply too much force on the tabs.
-    > Depending on the filament's brittleness, they might break.
+> [!WARNING]  
+> Don't apply too much force on the tabs.
+> Depending on the filament's brittleness, they might break.
 
 1. Flip the current assembly over.
 ![](assemble/faceplate-1.jpg)
