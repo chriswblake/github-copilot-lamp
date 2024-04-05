@@ -198,3 +198,28 @@ Open it using [Autodesk Fusion](https://www.autodesk.com/products/fusion-360/per
 - Reset wifi: hold button 0 for >6 seconds.
 - Reset WLED: hold button 0 for >12 seconds.
 
+
+# Reference
+
+## Manually Configure
+These are the settings for manually configuring a device the same
+as the premade configuration file.
+
+### LED Preferences
+- Maximum current: 850mA
+- WS281x
+- GPIO 2
+- Turn LEDs on after power up/reset: unchecked
+- Button 0 CPIO: 15 - Push Inverted
+- Button 1 CPI: unused - Disabled
+
+### WiFi Setup
+DNS address: copilot-lamp.local
+AP SSID: copilot-lamp
+AP Pass: copilot-lamp
+Disable WiFi Sleep: checked
+
+### Time and Macros
+Macro Presets Button Actions
+- Button 0: short: 0, long: 0, double: 0
+- Button 1: short: 1, long: 3, double: 2
