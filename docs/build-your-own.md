@@ -157,3 +157,24 @@ Pinch the USB cable under the angled guide bar to secure the microcontroller.
 1. Connect the LED cable and touch sensor cables to the microcontroller.
 ![](assemble/electronics-plate-4.jpg)
 
+### Cover Plates Install
+1. Attach in the backplate by gently pressing it into the LED chamber.
+![](assemble/backplate-1.jpg)
+
+    > [!WARNING]  
+    > Don't apply too much force on the tabs.
+    > Depending on the filament's brittleness, they might break.
+
+1. Flip the current assembly over.
+![](assemble/faceplate-1.jpg)
+
+1. Attach the faceplate by gently sliding it down over the LED chamber.
+![](assemble/faceplate-2.jpg)
+
+1. Insert the eyes into the face of the LED chamber.
+![](assemble/eyes-1.jpg)
+
+1. You are finished! See the main [README](../README.md) for usage info. Plug it in and enjoy!
+![](assemble/eyes-2.jpg)
+
+
