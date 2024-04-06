@@ -88,6 +88,14 @@ This will do the following:
     
 ## 2. Pre-Assembly and Testing
 
+### Touch Sensor
+1. Attach a lead cable (plug side) to the contacts of the touch sensor.
+    - Red Wire: VCC (3.3v power)
+    - Yellow Wire: I/O (communication)
+    - Bloack Wire: GND (ground)
+    ![](assemble/touch-sensor-1.jpg)
+    ![](assemble/touch-sensor-2.jpg)
+
 ### Microcontroller
 1. Attach the LED lead cable (socket side) to the microcontroller.
 Make sure the cables come out of the side with the wifi module.
