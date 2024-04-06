@@ -61,6 +61,7 @@ It's important to start with installing the software.
 
 1. Connect the microcontroller to your computer using a USB cable.
 1. Open a web browser and navigate to the [WLED install page](https://install.wled.me/).
+1. In the drop down, ensure version `0.15` is selected.
 1. Click the **Install** button and a window will appear.
 Select the USB serial device.
 1. Follow the instructions and wait a few minutes for the install.
@@ -87,6 +88,24 @@ This will do the following:
     
 ## 2. Pre-Assembly and Testing
 
+### LED Strip
+1. Keeping the plug end, cut the 5 meter LED strip to 60 LEDs (1 meter).
+
+> [!WARNING]  
+> The ~1 meter length is more important than the 60 LEDS.
+> If the strip is too long it may not fit. If it is too short, then parts may not glow. 😕
+
+![](assemble/led-strip-1.jpg)
+
+### Touch Sensor
+1. Attach a lead cable (plug side) to the contacts of the touch sensor.
+    - Black Wire: GND (ground)
+    - Yellow Wire: I/O (communication)
+    - Red Wire: VCC (3.3v power)
+
+![](assemble/touch-sensor-1.jpg)
+![](assemble/touch-sensor-2.jpg)
+
 ### Microcontroller
 1. Attach the LED lead cable (socket side) to the microcontroller.
 Make sure the cables come out of the side with the wifi module.
@@ -97,7 +116,7 @@ Make sure the cables come out of the side with the wifi module.
     ![](assemble/microcontroller-1.jpg)
     ![](assemble/microcontroller-2.jpg)
 
-1. Attach the Touch Sensor lead cable (socket side) to the micrcontroller.
+1. Attach the Touch Sensor lead cable (socket side) to the microcontroller.
 Make sure the cables come out of the side with the wifi module.
     - Red Wire: 3V3 (power)
     - White Wire: G (ground) - Note, it is on the other side.
@@ -108,16 +127,7 @@ Make sure the cables come out of the side with the wifi module.
 2. Attach the short micro-usb extension.
 ![](assemble/microcontroller-3.jpg)
 
-### LED Strip
-
-1. Keeping the plug end, cut the 5 meter LED strip to 60 LEDs (1 meter).
-> [!WARNING]  
-> The ~1 meter length is more important than the 60 LEDS.
-> If the strip is too long it may not fit. If it is too short, then parts may not glow. 😕
-![](assemble/led-strip-1.jpg)
-
 ## Pre-check Testing
-
 1. Connect the LED strip and touch sensor to the microcontroller.
 1. Plug in the USB cable to apply power.
 1. The LEDs should randomly fade shades of green.

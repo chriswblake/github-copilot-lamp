@@ -11,13 +11,16 @@ If you received your lamp prebuilt, is has already been configured and is ready 
 ### How to Turn on/off
 The white spot between the goggles is a touch sensor and provides basic control the lamp. For more advanced control, you can use the WLED app or web interface!
 
+- Automatically turns on at 9am CST.
+- Automatically turns off at 5pm CST.
+
 | Single Press | Double Press | Long Press |
 | - | - | - |
 | Slow Fade Green | Fast Random Rainbow | Off |
 | ![](docs/README/touch-single.gif) | ![](docs/README/touch-double.gif) | ![](docs/README/touch-hold.gif) |
 
 ### Connect to WiFi
-Want full control over your lamp? Connect it to your WiFi network!
+Want full control over your lamp? Connect it to your WiFi network! (2.4ghz only)
 If not connected to an existing wifi, it will broadcast a tempory wifi network for setup.
 
 1. On your computer or phone, search for the wifi network `copilot-lamp` and connect to it.
@@ -52,6 +55,17 @@ If not connected to an existing wifi, it will broadcast a tempory wifi network f
 
 1. Apply the new faceplate!
 
-# Build your own
+## Troubleshooting
+
+### Can't connect to WiFi.
+If you aren't able to connect to 'copilot-lamp' or you locked yourself out by entering bad wifi information, you can update the wifi information at the WLED website.
+
+1. Connect the device to your computer using a USB cable.
+1. Click 'Install' button. It will detect the lamp already has WLED installed and provide options.
+1. Select 'Change WI-FI' and it will scan for nearby options.
+1. Enter your wifi password and wait a moment.
+1. Click 'Visit Device' and it will navigate to the webpage view.
+
+# Build your own 🤓
 That's cool and all, but how do I make one?!  
 Check out the [build your own](docs/build-your-own.md) page for a step-by-step guide. 🧑‍🚀

@@ -3,13 +3,16 @@
         1,
         0
     ],
-    "vid": 2401141,
+    "vid": 2403190,
     "id": {
         "mdns": "copilot-lamp",
         "name": "copilot-lamp",
-        "inv": "Light"
+        "inv": "Light",
+        "sui": false
     },
     "nw": {
+        "espnow": false,
+        "linked_remote": "",
         "ins": [
             {
                 "ssid": "home-wifi",
@@ -27,17 +30,23 @@
                     0
                 ],
                 "sn": [
-                    255,
-                    255,
-                    255,
+                    1,
+                    0,
+                    0,
                     0
                 ]
             }
+        ],
+        "dns": [
+            8,
+            8,
+            8,
+            8
         ]
     },
     "ap": {
         "ssid": "copilot-lamp",
-        "pskl": 0,
+        "pskl": 12,
         "chan": 1,
         "hide": 0,
         "behav": 0,
@@ -55,8 +64,8 @@
     "hw": {
         "led": {
             "total": 60,
-            "maxpwr": 850,
-            "ledma": 55,
+            "maxpwr": 1000,
+            "ledma": 0,
             "cct": false,
             "cr": false,
             "cb": 0,
@@ -76,7 +85,9 @@
                     "type": 22,
                     "ref": false,
                     "rgbwm": 0,
-                    "freq": 0
+                    "freq": 0,
+                    "maxpwr": 1000,
+                    "ledma": 55
                 }
             ]
         },
@@ -146,8 +157,9 @@
             "mode": true,
             "fx": true,
             "dur": 7,
-            "pal": 0,
-            "rpc": 5
+            "pal": false,
+            "rpc": 5,
+            "hrp": true
         },
         "nl": {
             "mode": 1,
@@ -165,6 +177,7 @@
         "sync": {
             "port0": 21324,
             "port1": 65506,
+            "espnow": false,
             "recv": {
                 "bri": true,
                 "col": true,
@@ -174,11 +187,11 @@
                 "sb": false
             },
             "send": {
+                "en": false,
                 "dir": false,
                 "btn": false,
                 "va": false,
                 "hue": true,
-                "macro": false,
                 "grp": 1,
                 "ret": 0
             }
@@ -190,6 +203,7 @@
         "live": {
             "en": true,
             "mso": false,
+            "rlm": true,
             "port": 5568,
             "mc": false,
             "dmx": {
@@ -245,16 +259,12 @@
         "ntp": {
             "en": false,
             "host": "0.wled.pool.ntp.org",
-            "tz": 0,
+            "tz": 5,
             "offset": 0,
             "ampm": false,
             "ln": 0,
             "lt": 0
         }
-    },
-    "remote": {
-        "remote_enabled": false,
-        "linked_remote": ""
     },
     "ol": {
         "clock": 0,
@@ -263,7 +273,8 @@
         "max": 29,
         "o12pix": 0,
         "o5m": false,
-        "osec": false
+        "osec": false,
+        "osb": false
     },
     "timers": {
         "cntdwn": {
@@ -278,6 +289,51 @@
             "macro": 0
         },
         "ins": [
+            {
+                "en": 1,
+                "hour": 9,
+                "min": 0,
+                "macro": 1,
+                "dow": 127,
+                "start": {
+                    "mon": 1,
+                    "day": 1
+                },
+                "end": {
+                    "mon": 12,
+                    "day": 31
+                }
+            },
+            {
+                "en": 1,
+                "hour": 14,
+                "min": 0,
+                "macro": 3,
+                "dow": 127,
+                "start": {
+                    "mon": 1,
+                    "day": 1
+                },
+                "end": {
+                    "mon": 12,
+                    "day": 31
+                }
+            },
+            {
+                "en": 1,
+                "hour": 15,
+                "min": 0,
+                "macro": 2,
+                "dow": 127,
+                "start": {
+                    "mon": 1,
+                    "day": 1
+                },
+                "end": {
+                    "mon": 12,
+                    "day": 31
+                }
+            },
             {
                 "en": 1,
                 "hour": 255,
