@@ -20,7 +20,7 @@ The white spot between the goggles is a touch sensor and provides basic control 
 | ![](docs/README/touch-single.gif) | ![](docs/README/touch-double.gif) | ![](docs/README/touch-hold.gif) |
 
 ### Connect to WiFi
-Want full control over your lamp? Connect it to your WiFi network!
+Want full control over your lamp? Connect it to your WiFi network! (2.4ghz only)
 If not connected to an existing wifi, it will broadcast a tempory wifi network for setup.
 
 1. On your computer or phone, search for the wifi network `copilot-lamp` and connect to it.
