@@ -9,11 +9,12 @@ A fun and playful lamp to match the energy of [GitHub Copilot](https://github.co
 If you received your lamp prebuilt, is has already been configured and is ready to use. Simply plug it in with a USB cable and power brick with at least 1 amp. The lamp will turn on with an "aurura" like green effect.
 
 ### How to Turn on/off
-The white spot between the goggle is a touch sensor, for basic control the lamp. For more advanced control, you can use the WLED app or web interface!
+The white spot between the goggles is a touch sensor and provides basic control the lamp. For more advanced control, you can use the WLED app or web interface!
 
-- Single press: slow green
-- Double press: fast rainbow
-- Long press: off
+| Single Press | Double Press | Long Press |
+| - | - | - |
+| Slow Fade Green | Fast Random Rainbow | Off |
+| ![](docs/README/touch-single.gif) | ![](docs/README/touch-double.gif) | ![](docs/README/touch-hold.gif) |
 
 ### Connect to WiFi
 Want full control over your lamp? Connect it to your WiFi network!
@@ -34,18 +35,18 @@ If not connected to an existing wifi, it will broadcast a tempory wifi network f
 
 ### Change eye color
 
-1. Using a screwdriver, insert the end through the holes in the back of the lamp.
-![](docs/README/eyes-change-1.jpg)
+1. Using a screwdriver, insert the end through the holes in the back of the lamp.  
+    <img src="docs/README/eyes-change-1.jpg" width="300px">
 
-1. Continue to push and the eye insert will pop forward.
-![](docs/README/eyes-change-2.jpg)
+1. Continue to push and the eye insert will pop forward.  
+    <img src="docs/README/eyes-change-2.jpg" width="300px">
 
 1. Insert the other colored eyes!
 
 ### Change helmet color (faceplate)
 
-1. Grip the top of the mask and gently push into the white space of the goggles. You will feel the connectors pop out. 
-![](docs/README/faceplate-change-1.jpg)
+1. Grip the top of the mask and gently push into the white space of the goggles. You will feel the connectors pop out.  
+    <img src="docs/README/faceplate-change-1.jpg" width="300px">
 
 1. Flip the lamp over, and repeat on the other side. Once disconnected, slide the faceplate off.
 
