@@ -61,6 +61,7 @@ It's important to start with installing the software.
 
 1. Connect the microcontroller to your computer using a USB cable.
 1. Open a web browser and navigate to the [WLED install page](https://install.wled.me/).
+1. In the drop down, ensure version `0.15` is selected.
 1. Click the **Install** button and a window will appear.
 Select the USB serial device.
 1. Follow the instructions and wait a few minutes for the install.

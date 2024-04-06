@@ -11,6 +11,9 @@ If you received your lamp prebuilt, is has already been configured and is ready 
 ### How to Turn on/off
 The white spot between the goggles is a touch sensor and provides basic control the lamp. For more advanced control, you can use the WLED app or web interface!
 
+- Automatically turns on at 9am CST.
+- Automatically turns off at 5pm CST.
+
 | Single Press | Double Press | Long Press |
 | - | - | - |
 | Slow Fade Green | Fast Random Rainbow | Off |
