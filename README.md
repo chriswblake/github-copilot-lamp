@@ -9,11 +9,12 @@ A fun and playful lamp to match the energy of [GitHub Copilot](https://github.co
 If you received your lamp prebuilt, is has already been configured and is ready to use. Simply plug it in with a USB cable and power brick with at least 1 amp. The lamp will turn on with an "aurura" like green effect.
 
 ### How to Turn on/off
-The white spot between the goggle is a touch sensor, for basic control the lamp. For more advanced control, you can use the WLED app or web interface!
+The white spot between the goggles is a touch sensor and provides basic control the lamp. For more advanced control, you can use the WLED app or web interface!
 
-- Single press: slow green
-- Double press: fast rainbow
-- Long press: off
+| Single Press | Double Press | Long Press |
+| - | - | - |
+| Slow Fade Green | Fast Random Rainbow | Off |
+| ![](docs/README/touch-single.gif) | ![](docs/README/touch-double.gif) | ![](docs/README/touch-hold.gif) |
 
 ### Connect to WiFi
 Want full control over your lamp? Connect it to your WiFi network!
