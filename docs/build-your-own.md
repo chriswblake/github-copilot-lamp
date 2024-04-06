@@ -88,13 +88,23 @@ This will do the following:
     
 ## 2. Pre-Assembly and Testing
 
+### LED Strip
+1. Keeping the plug end, cut the 5 meter LED strip to 60 LEDs (1 meter).
+
+> [!WARNING]  
+> The ~1 meter length is more important than the 60 LEDS.
+> If the strip is too long it may not fit. If it is too short, then parts may not glow. 😕
+
+![](assemble/led-strip-1.jpg)
+
 ### Touch Sensor
 1. Attach a lead cable (plug side) to the contacts of the touch sensor.
-    - Red Wire: VCC (3.3v power)
+    - Black Wire: GND (ground)
     - Yellow Wire: I/O (communication)
-    - Bloack Wire: GND (ground)
-    ![](assemble/touch-sensor-1.jpg)
-    ![](assemble/touch-sensor-2.jpg)
+    - Red Wire: VCC (3.3v power)
+
+![](assemble/touch-sensor-1.jpg)
+![](assemble/touch-sensor-2.jpg)
 
 ### Microcontroller
 1. Attach the LED lead cable (socket side) to the microcontroller.
@@ -117,16 +127,7 @@ Make sure the cables come out of the side with the wifi module.
 2. Attach the short micro-usb extension.
 ![](assemble/microcontroller-3.jpg)
 
-### LED Strip
-
-1. Keeping the plug end, cut the 5 meter LED strip to 60 LEDs (1 meter).
-> [!WARNING]  
-> The ~1 meter length is more important than the 60 LEDS.
-> If the strip is too long it may not fit. If it is too short, then parts may not glow. 😕
-![](assemble/led-strip-1.jpg)
-
 ## Pre-check Testing
-
 1. Connect the LED strip and touch sensor to the microcontroller.
 1. Plug in the USB cable to apply power.
 1. The LEDs should randomly fade shades of green.
