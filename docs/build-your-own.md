@@ -106,7 +106,7 @@ Make sure the cables come out of the side with the wifi module.
     ![](assemble/microcontroller-1.jpg)
     ![](assemble/microcontroller-2.jpg)
 
-1. Attach the Touch Sensor lead cable (socket side) to the micrcontroller.
+1. Attach the Touch Sensor lead cable (socket side) to the microcontroller.
 Make sure the cables come out of the side with the wifi module.
     - Red Wire: 3V3 (power)
     - White Wire: G (ground) - Note, it is on the other side.
