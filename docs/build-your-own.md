@@ -51,6 +51,8 @@ The .STL files for all of the printable parts are in the `/models` folder.
 <img src="components/faceplate.jpg" width="200px"> | Faceplate* | The outer shell for changing color. |
 <img src="components/eyes.jpg" width="200px"> | Eyes | Interchange eye inserts for the face of the LED chamber. |
 
+> [!NOTE]  
+> If you know how to use Autodesk Fusion, you can add your GitHub handle to the chin of the faceplate. The 3D model already has a feature. Just change the text. 🤯
 
 ## 1. Install Software
 If you order the microcontrollers from the provided link, there
