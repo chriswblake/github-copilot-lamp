@@ -13,14 +13,12 @@ In short, it is a few 3D printed parts, a microcontroller, some LEDs and a few w
 - 60 LEDs (1 meter) - WS2812B Addressable LED Light Strip [[US]](https://www.amazon.com/dp/B097379J1V)
 - ESP8266 Microcontroller micro-USB + WiFi [[US]](https://www.amazon.com/dp/B081PX9YFV)
 - TTP223 Capacitive Touch Sensor [[US]](https://www.amazon.com/dp/B01D1D0FLG)
+- JST Cable (white, 26awg) [[US]](https://www.amazon.com/dp/B0CF2BTYSK)
 - Short Micro-USB Extension [[US]](https://www.amazon.com/dp/B0791ZZ3HG)
+- (optional) 3/8" Shrink Tubing [[US]](https://www.amazon.com/dp/B07FK17W6B)
+- (optional) JST Cable (black, 20awg) [[US]](https://www.amazon.com/dp/B071H5XCN5)
 - (optional) Long micro-USB cable. [[US]](https://www.amazon.com/dp/B0CGDPS336)
-
-### Optional Materials
-If you would like to build yours a bit more professionally, you can use the following cables and sockets.
-- JST Cable [[US]](https://www.amazon.com/dp/B0CF2BTYSK)
-- JST Socket [[US]](https://www.amazon.com/dp/B0BMDZR7RZ)
-- 3/8" Shrink Tubing [[US]](https://www.amazon.com/dp/B07FK17W6B)
+<!-- - JST Socket [[US]](https://www.amazon.com/dp/B0BMDZR7RZ) -->
 
 ### Tools
 - Soldering Iron
@@ -50,9 +48,11 @@ The .STL files for all of the printable parts are in the `/models` folder.
 <img src="components/led-chamber.jpg" width="200px"> | LED Chamber | The part that glows, where the LEDs are attached. |
 <img src="components/electronics-plate.jpg" width="200px"> | Electronics Plate | Sits inside the LED chamber for the microcontroller and cable management. |
 <img src="components/backplate.jpg" width="200px"> | Backplate | The back cover of the LED chamber. |
-<img src="components/faceplate.jpg" width="200px"> | Faceplate | The outer shell for changing color. |
+<img src="components/faceplate.jpg" width="200px"> | Faceplate* | The outer shell for changing color. |
 <img src="components/eyes.jpg" width="200px"> | Eyes | Interchange eye inserts for the face of the LED chamber. |
 
+> [!NOTE]  
+> If you know how to use Autodesk Fusion, you can add your GitHub handle to the chin of the faceplate. The 3D model already has a feature. Just change the text. 🤯
 
 ## 1. Install Software
 If you order the microcontrollers from the provided link, there
@@ -83,8 +83,7 @@ This will do the following:
     - Configure use of the touch sensor.
     - Assign the touch sensor to the playlists.
     - Configure a timer option to turn on the lamp at 9am and off at 5pm.
-    - Clear the WiFi information.
-    - Set it to broadst a WiFi network named `copilot-lamp` with default password `copilot-lamp`.
+    - Set it to broadcast a WiFi network named `copilot-lamp`, if no WiFi is found.
     
 ## 2. Pre-Assembly and Testing
 
@@ -98,13 +97,24 @@ This will do the following:
 ![](assemble/led-strip-1.jpg)
 
 ### Touch Sensor
-1. Attach a lead cable (plug side) to the contacts of the touch sensor.
+1. Attach a JST lead cable (plug side) to the contacts of the touch sensor.
     - Black Wire: GND (ground)
     - Yellow Wire: I/O (communication)
     - Red Wire: VCC (3.3v power)
 
-![](assemble/touch-sensor-1.jpg)
-![](assemble/touch-sensor-2.jpg)
+    ![](assemble/touch-sensor-1.jpg)
+    ![](assemble/touch-sensor-2.jpg)
+
+### LED Lead Cable
+1. Your LED strip may have come with a simple controller. Remove the socket end from it or from the 5 meter LED strip.
+
+    ![](assemble/led-lead-1.jpg)
+    or
+    ![](assemble/led-lead-2.jpg)
+
+### Touch Lead Cable
+1. Shorten a JST lead cable (socket side). Leave the black wire longer, about the width of the microcontroller.
+    ![](assemble/touch-lead-1.jpg)
 
 ### Microcontroller
 1. Attach the LED lead cable (socket side) to the microcontroller.
@@ -122,10 +132,13 @@ Make sure the cables come out of the side with the wifi module.
     - White Wire: G (ground) - Note, it is on the other side.
     - Green Wire: D7 (digital)
 
-    [Missing pictures]
+    ![](assemble/microcontroller-3.jpg)
+    ![](assemble/microcontroller-4.jpg)
+    ![](assemble/microcontroller-5.jpg)
 
 2. Attach the short micro-usb extension.
-![](assemble/microcontroller-3.jpg)
+    
+    ![](assemble/microcontroller-6.jpg)
 
 ## Pre-check Testing
 1. Connect the LED strip and touch sensor to the microcontroller.
@@ -158,7 +171,7 @@ Ensure the WiFi module is facing down (toward the face).
 Pinch the USB cable under the angled guide bar to secure the microcontroller.
 ![](assemble/electronics-plate-2.jpg)
 
-1. Twist the USB cable around some of the left cable guides and pinc it into the holder.
+1. Twist the USB cable around some of the left cable guides and pinch it into the holder.
 ![](assemble/electronics-plate-3.jpg)
 
 > [!NOTE]  

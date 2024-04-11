@@ -16,7 +16,7 @@
         "ins": [
             {
                 "ssid": "home-wifi",
-                "pskl": 21,
+                "pskl": 0,
                 "ip": [
                     0,
                     0,
@@ -46,7 +46,7 @@
     },
     "ap": {
         "ssid": "copilot-lamp",
-        "pskl": 12,
+        "pskl": 0,
         "chan": 1,
         "hide": 0,
         "behav": 0,
