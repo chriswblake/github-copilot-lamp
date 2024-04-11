@@ -133,10 +133,13 @@ Make sure the cables come out of the side with the wifi module.
     - White Wire: G (ground) - Note, it is on the other side.
     - Green Wire: D7 (digital)
 
-    [Missing pictures]
+    ![](assemble/microcontroller-3.jpg)
+    ![](assemble/microcontroller-4.jpg)
+    ![](assemble/microcontroller-5.jpg)
 
 2. Attach the short micro-usb extension.
-![](assemble/microcontroller-3.jpg)
+    
+    ![](assemble/microcontroller-6.jpg)
 
 ## Pre-check Testing
 1. Connect the LED strip and touch sensor to the microcontroller.
