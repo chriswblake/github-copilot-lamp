@@ -106,6 +106,17 @@ This will do the following:
 ![](assemble/touch-sensor-1.jpg)
 ![](assemble/touch-sensor-2.jpg)
 
+### LED Lead Cable
+1. Your LED strip may have come with a simple controller. Remove the socket end from it or from the 5 meter LED strip.
+
+    ![](assemble/led-lead-1.jpg)
+    or
+    ![](assemble/led-lead-2.jpg)
+
+### Touch Lead Cable
+1. Shorten a JST lead cable (socket side). Leave the black wire longer, about the width of the microcontroller.
+    ![](assemble/touch-lead-1.jpg)
+
 ### Microcontroller
 1. Attach the LED lead cable (socket side) to the microcontroller.
 Make sure the cables come out of the side with the wifi module.
