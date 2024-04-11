@@ -48,7 +48,7 @@ The .STL files for all of the printable parts are in the `/models` folder.
 <img src="components/led-chamber.jpg" width="200px"> | LED Chamber | The part that glows, where the LEDs are attached. |
 <img src="components/electronics-plate.jpg" width="200px"> | Electronics Plate | Sits inside the LED chamber for the microcontroller and cable management. |
 <img src="components/backplate.jpg" width="200px"> | Backplate | The back cover of the LED chamber. |
-<img src="components/faceplate.jpg" width="200px"> | Faceplate | The outer shell for changing color. |
+<img src="components/faceplate.jpg" width="200px"> | Faceplate* | The outer shell for changing color. |
 <img src="components/eyes.jpg" width="200px"> | Eyes | Interchange eye inserts for the face of the LED chamber. |
 
 
@@ -81,8 +81,7 @@ This will do the following:
     - Configure use of the touch sensor.
     - Assign the touch sensor to the playlists.
     - Configure a timer option to turn on the lamp at 9am and off at 5pm.
-    - Clear the WiFi information.
-    - Set it to broadst a WiFi network named `copilot-lamp` with default password `copilot-lamp`.
+    - Set it to broadcast a WiFi network named `copilot-lamp`, if no WiFi is found.
     
 ## 2. Pre-Assembly and Testing
 
@@ -96,13 +95,13 @@ This will do the following:
 ![](assemble/led-strip-1.jpg)
 
 ### Touch Sensor
-1. Attach a lead cable (plug side) to the contacts of the touch sensor.
+1. Attach a JST lead cable (plug side) to the contacts of the touch sensor.
     - Black Wire: GND (ground)
     - Yellow Wire: I/O (communication)
     - Red Wire: VCC (3.3v power)
 
-![](assemble/touch-sensor-1.jpg)
-![](assemble/touch-sensor-2.jpg)
+    ![](assemble/touch-sensor-1.jpg)
+    ![](assemble/touch-sensor-2.jpg)
 
 ### LED Lead Cable
 1. Your LED strip may have come with a simple controller. Remove the socket end from it or from the 5 meter LED strip.
@@ -170,7 +169,7 @@ Ensure the WiFi module is facing down (toward the face).
 Pinch the USB cable under the angled guide bar to secure the microcontroller.
 ![](assemble/electronics-plate-2.jpg)
 
-1. Twist the USB cable around some of the left cable guides and pinc it into the holder.
+1. Twist the USB cable around some of the left cable guides and pinch it into the holder.
 ![](assemble/electronics-plate-3.jpg)
 
 > [!NOTE]  
