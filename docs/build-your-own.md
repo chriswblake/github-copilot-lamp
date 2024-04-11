@@ -13,14 +13,12 @@ In short, it is a few 3D printed parts, a microcontroller, some LEDs and a few w
 - 60 LEDs (1 meter) - WS2812B Addressable LED Light Strip [[US]](https://www.amazon.com/dp/B097379J1V)
 - ESP8266 Microcontroller micro-USB + WiFi [[US]](https://www.amazon.com/dp/B081PX9YFV)
 - TTP223 Capacitive Touch Sensor [[US]](https://www.amazon.com/dp/B01D1D0FLG)
+- JST Cable (white, 26awg) [[US]](https://www.amazon.com/dp/B0CF2BTYSK)
 - Short Micro-USB Extension [[US]](https://www.amazon.com/dp/B0791ZZ3HG)
+- (optional) 3/8" Shrink Tubing [[US]](https://www.amazon.com/dp/B07FK17W6B)
+- (optional) JST Cable (black, 20awg) [[US]](https://www.amazon.com/dp/B071H5XCN5)
 - (optional) Long micro-USB cable. [[US]](https://www.amazon.com/dp/B0CGDPS336)
-
-### Optional Materials
-If you would like to build yours a bit more professionally, you can use the following cables and sockets.
-- JST Cable [[US]](https://www.amazon.com/dp/B0CF2BTYSK)
-- JST Socket [[US]](https://www.amazon.com/dp/B0BMDZR7RZ)
-- 3/8" Shrink Tubing [[US]](https://www.amazon.com/dp/B07FK17W6B)
+<!-- - JST Socket [[US]](https://www.amazon.com/dp/B0BMDZR7RZ) -->
 
 ### Tools
 - Soldering Iron
