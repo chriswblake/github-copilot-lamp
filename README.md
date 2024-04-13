@@ -25,6 +25,11 @@ If not connected to an existing wifi, it will broadcast a tempory wifi network f
     - [Android App](https://play.google.com/store/apps/details?id=com.aircoookie.WLED)
     - Alternately, the lamp can still be accessed in  a web browser by navigating to `http://copilot-lamp.local`.
 
+<img src="docs/README/connect-wifi-1.png" width="24%">
+<img src="docs/README/connect-wifi-2.png" width="24%">
+<img src="docs/README/connect-wifi-3.png" width="24%">
+<img src="docs/README/connect-wifi-4.png" width="24%">
+
 ### Change eye color
 
 1. Using a screwdriver, insert the end through the holes in the back of the lamp.  
