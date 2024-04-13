@@ -75,3 +75,5 @@ If you aren't able to connect to 'copilot-lamp' or you locked yourself out by en
 # Build your own 🤓
 That's cool and all, but how do I make one?!  
 Check out the [build your own](docs/build-your-own.md) page for a step-by-step guide. 🧑‍🚀
+
+Making it for someone else? How kind of you! 💚 Check out the [gift a friend](docs/gift-a-friend.md) page to create an awesome unboxing experience! 🤩
