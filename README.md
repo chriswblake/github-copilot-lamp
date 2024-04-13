@@ -23,18 +23,24 @@ The white spot between the goggles is a touch sensor and provides basic control 
 Want full control over your lamp? Connect it to your WiFi network! (2.4ghz only)
 If not connected to an existing wifi, it will broadcast a tempory wifi network for setup.
 
-1. On your computer or phone, search for the wifi network `copilot-lamp` and connect to it.
+1. On your phone or computer, search for the wifi network `copilot-lamp` and connect to it.
     - Default password is `copilot-lamp` or `wled-1234`.
-1. In a web browser, navigate to `http://copilot-lamp.local` or use the WLED app.
+1. Wait a moment and a temporary login-style web browser will appear. If no browser appears, open a web browser navigate to http://copilot-lamp.local.
+1. In the top right, click the **Config** gear icon to open the settings menu.
+1. Select **WiFi Setup**.
+1. Enter you home's wifi name and password. Click **Save & Connect**. Wait a moment for the lamp to restart.
+1. Reconnect your phone or computer to your home wifi.
+1. Now when connected to your home wifi, you can use the WLED app.
     - [iOS App](https://apps.apple.com/us/app/wled/id1475695033)
     - [Android App](https://play.google.com/store/apps/details?id=com.aircoookie.WLED)
-1. Click on the settings icon.
-1. Navigate to the wifi area.
-1. Enter you home wifi credentials and click save. Wait a moment for the lamp to restart.
-1. Reconnect your computer or phone to your home wifi.
-1. In a web browser, navigate to `http://copilot-lamp.local` or use the WLED app.
-    - [iOS App](https://apps.apple.com/us/app/wled/id1475695033)
-    - [Android App](https://play.google.com/store/apps/details?id=com.aircoookie.WLED)
+    - Alternately, the lamp can still be accessed in  a web browser by navigating to http://copilot-lamp.local.
+
+<div>
+<img src="docs/README/connect-wifi-1.png" width="24%">
+<img src="docs/README/connect-wifi-2.png" width="24%">
+<img src="docs/README/connect-wifi-3.png" width="24%">
+<img src="docs/README/connect-wifi-4.png" width="24%">
+</div>
 
 ### Change eye color
 
