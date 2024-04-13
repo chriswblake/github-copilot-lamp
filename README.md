@@ -22,19 +22,8 @@ The white spot between the goggles is a touch sensor and provides basic control 
 ### Connect to WiFi
 Want full control over your lamp? Connect it to your WiFi network! (2.4ghz only)
 If not connected to an existing wifi, it will broadcast a tempory wifi network for setup.
-
-1. On your computer or phone, search for the wifi network `copilot-lamp` and connect to it.
-    - Default password is `copilot-lamp` or `wled-1234`.
-1. In a web browser, navigate to `http://copilot-lamp.local` or use the WLED app.
-    - [iOS App](https://apps.apple.com/us/app/wled/id1475695033)
     - [Android App](https://play.google.com/store/apps/details?id=com.aircoookie.WLED)
-1. Click on the settings icon.
-1. Navigate to the wifi area.
-1. Enter you home wifi credentials and click save. Wait a moment for the lamp to restart.
-1. Reconnect your computer or phone to your home wifi.
-1. In a web browser, navigate to `http://copilot-lamp.local` or use the WLED app.
-    - [iOS App](https://apps.apple.com/us/app/wled/id1475695033)
-    - [Android App](https://play.google.com/store/apps/details?id=com.aircoookie.WLED)
+    - Alternately, the lamp can still be accessed in  a web browser by navigating to `http://copilot-lamp.local`.
 
 ### Change eye color
 
