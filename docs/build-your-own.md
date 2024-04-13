@@ -140,7 +140,7 @@ Make sure the cables come out of the side with the wifi module.
     
     ![](assemble/microcontroller-6.jpg)
 
-## Pre-check Testing
+### Pre-check Testing
 1. Connect the LED strip and touch sensor to the microcontroller.
 1. Plug in the USB cable to apply power.
 1. The LEDs should randomly fade shades of green.
@@ -246,3 +246,9 @@ Disable WiFi Sleep: checked
 Macro Presets Button Actions
 - Button 0: short: 0, long: 0, double: 0
 - Button 1: short: 1, long: 3, double: 2
+
+### Guides, Manuals, and Tech Specs
+- D1 Mini Microcontroller [Pin Detail and Guide](https://diyi0t.com/esp8266-wemos-d1-mini-tutorial)
+- D1 Mini [Schematic](ref/D1%20Mini%20schematic.pdf)
+- TTP223 Touch Sensor [Video Guide](https://www.youtube.com/watch?v=i0iL5MLXSdU)
+- TTP223 Touch Sensor [Tech Specs](ref/D1%20Mini%20schematic.pdf)
