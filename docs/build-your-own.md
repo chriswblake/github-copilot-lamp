@@ -202,6 +202,12 @@ Pinch the USB cable under the angled guide bar to secure the microcontroller.
 1. You are finished! See the main [README](../README.md) for usage info. Plug it in and enjoy!
 ![](assemble/eyes-2.jpg)
 
+## 4. Gift a Friend
+Congrats! Nice work! 🎉 Did you have fun making your copilot lamp? I know I did! 🤓
+
+Quick Question. Any chancee you have some extra parts? I bet so.
+
+Why not make another and gift it to a friend. Check out the [gift a friend](/docs/gift-a-friend.md) guide to make sure their unboxing experience is super fantastic! 🦄 💚
 
 
 ## Other Advanced Tasks
