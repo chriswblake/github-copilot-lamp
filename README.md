@@ -25,7 +25,7 @@ If not connected to an existing wifi, it will broadcast a tempory wifi network f
 
 1. On your phone or computer, search for the wifi network `copilot-lamp` and connect to it.
     - Default password is `copilot-lamp` or `wled-1234`.
-1. Wait a moment and a temporary login-style web browser will appear. If no browser appears, open a web browser navigate to `http://copilot-lamp.local`.
+1. Wait a moment and a temporary login-style web browser will appear. If no browser appears, open a web browser navigate to http://copilot-lamp.local.
 1. In the top right, click the **Config** gear icon to open the settings menu.
 1. Select **WiFi Setup**.
 1. Enter you home's wifi name and password. Click **Save & Connect**. Wait a moment for the lamp to restart.
@@ -33,7 +33,7 @@ If not connected to an existing wifi, it will broadcast a tempory wifi network f
 1. Now when connected to your home wifi, you can use the WLED app.
     - [iOS App](https://apps.apple.com/us/app/wled/id1475695033)
     - [Android App](https://play.google.com/store/apps/details?id=com.aircoookie.WLED)
-    - Alternately, the lamp can still be accessed in  a web browser by navigating to `http://copilot-lamp.local`.
+    - Alternately, the lamp can still be accessed in  a web browser by navigating to http://copilot-lamp.local.
 
 <div>
 <img src="docs/README/connect-wifi-1.png" width="24%">
