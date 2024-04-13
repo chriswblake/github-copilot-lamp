@@ -140,7 +140,7 @@ Make sure the cables come out of the side with the wifi module.
     
     ![](assemble/microcontroller-6.jpg)
 
-## Pre-check Testing
+### Pre-check Testing
 1. Connect the LED strip and touch sensor to the microcontroller.
 1. Plug in the USB cable to apply power.
 1. The LEDs should randomly fade shades of green.
