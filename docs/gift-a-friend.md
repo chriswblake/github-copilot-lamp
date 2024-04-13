@@ -25,3 +25,33 @@ The .STL files for all of the printable shipping protector are in the `/models` 
 <img src="gift/qr-code-with-url.png" width="200px"> | User Instructions QR Code | When scanned, directs user to main README for basic usage instructions. Obviously just normal 2D printing. 😉 |
 
 
+## 2.  Prep the Copilot Lamp box
+
+1. Ensure the tabs of the front and back are inward and fold the sides down. The side's have tabs that slip into the slot to keep the shape.
+
+1. Connect the left shipping protector and right shipping protector together.
+
+1. Insert the shipping connector into the box.
+    - It may appear loose. The gap will be filled when the top is closed.
+
+1. Insert the lamp.
+
+1. Pick some fun extra eye colors. Snap them into the holders.
+
+1. Add a sheet of protective foam.
+
+1. Add the QR Guide.
+
+1. Close the box. Smile for a job well done! 🤓
+
+## 3. Ship the gift
+
+1. Add some shipping protection.
+
+1. Insert the completed gift.
+
+1. Add some mor shipping protection.
+
+1. Close it up and add an address.
+
+1. Take it to the post office!
