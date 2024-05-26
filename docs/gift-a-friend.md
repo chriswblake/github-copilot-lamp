@@ -4,9 +4,10 @@ The copilot lamp is meant to be shared, and... who doesn't want an awesome unbox
 ![](gift/example-1.jpg)
 
 ### Materials
+- White PLA Filament [[US]](https://us.store.bambulab.com/products/pla-basic-filament?variant=41078274687112)
 - Beautiful Gradient Purple Box (11x8x2) [[US]](https://www.amazon.com/dp/B0B7JB5KC9)
 - USPS Medium Size Shipping Box, Top Loading [[US]](https://store.usps.com/store/product/shipping-supplies/priority-mail-flat-rate-medium-box-1-P_O_FRB1)
-<!-- - Packing Foam Sheets -->
+- Packing materials
 
 
 # Instructions
@@ -16,7 +17,7 @@ The .STL files for all of the printable shipping protector are in the `/models` 
 
 - No supports are required.
 - Any infill is fine. No special settings are required.
-- For a textured look, consider a textured plate. [[US]](https://us.store.bambulab.com/products/bambu-dual-sided-textured-pei-plate)
+- For a matte look, consider a textured plate. [[US]](https://us.store.bambulab.com/products/bambu-dual-sided-textured-pei-plate)
 
 | Image | Part | Description |
 | -- | -- | -- |
