@@ -20,8 +20,8 @@ The .STL files for all of the printable shipping protector are in the `/models` 
 
 | Image | Part | Description |
 | -- | -- | -- |
-<img src="gift/shipping-protector-left.png" width="200px"> | Shipping Protector (left) | Connects with the right piece to hold the position of the lamp in the box. Has slots for holding additional eye colors. Also indirectly teaches owner how to swap eyes colors. |
-<img src="gift/shipping-protector-right.png" width="200px"> | Shipping Protector (right) | Connects with the left piece to hold the position of the lamp in the box. |
+<img src="gift/shipping-protector-left.jpg" width="200px"> | Shipping Protector (left) | Connects with the right piece to hold the position of the lamp in the box. Has slots for holding additional eye colors. Also indirectly teaches owner how to swap eyes colors. |
+<img src="gift/shipping-protector-right.jpg" width="200px"> | Shipping Protector (right) | Connects with the left piece to hold the position of the lamp in the box. |
 <img src="gift/qr-code-with-url.png" width="200px"> | User Instructions QR Code | When scanned, directs user to main README for basic usage instructions. Obviously just normal 2D printing. 😉 |
 
 
