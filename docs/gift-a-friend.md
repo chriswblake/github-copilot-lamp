@@ -8,8 +8,8 @@ The copilot lamp is meant to be shared, and... who doesn't want an awesome unbox
 - White PLA Filament [[US]](https://us.store.bambulab.com/products/pla-basic-filament?variant=41078274687112)
 - Beautiful Gradient Purple Box (11x8x2) [[US]](https://www.amazon.com/dp/B0B7JB5KC9)
 - USPS Medium Size Shipping Box, Top Loading [[US]](https://store.usps.com/store/product/shipping-supplies/priority-mail-flat-rate-medium-box-1-P_O_FRB1)
-- Packing materials
-
+- Packing Foam
+- Packing Tape
 
 # Instructions
 
@@ -58,12 +58,22 @@ The .STL files for all of the printable shipping protector are in the `/models` 
 
 ## 3. Ship the gift
 
-1. Add some shipping protection.
+1. Fold the USPS shipping box and tape the bottom side.
+    ![](gift/shipping-1.jpg)
 
-1. Insert the completed gift.
+1. Add some shipping protection to the bottom.
+    ![](gift/shipping-2.jpg)
 
-1. Add some mor shipping protection.
+1. Insert the box with your GitHub Copilot lamp.
+    ![](gift/shipping-3.jpg)
 
-1. Close it up and add an address.
+1. Add some more shipping protection.
+    ![](gift/shipping-4.jpg)
+
+1. Close the box folds and tape it shut.
+    ![](gift/shipping-5.jpg)
+
+1. Fill out the address sticker.
+    ![](gift/shipping-6.jpg)
 
 1. Take it to the post office!
