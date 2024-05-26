@@ -2,6 +2,7 @@
 The copilot lamp is meant to be shared, and... who doesn't want an awesome unboxing experience. 🥰
 
 ![](gift/example-1.jpg)
+![](gift/overview.jpg)
 
 ### Materials
 - White PLA Filament [[US]](https://us.store.bambulab.com/products/pla-basic-filament?variant=41078274687112)
@@ -28,22 +29,32 @@ The .STL files for all of the printable shipping protector are in the `/models` 
 
 ## 2.  Prep the Copilot Lamp box
 
+![](gift/prep-box-overview.jpg)
+
 1. Ensure the tabs of the front and back are inward and fold the sides down. The side's have tabs that slip into the slot to keep the shape.
+    ![](gift/prep-box-1.jpg)
 
 1. Connect the left shipping protector and right shipping protector together.
+    ![](gift/prep-box-2.jpg)
 
 1. Insert the shipping connector into the box.
-    - It may appear loose. The gap will be filled when the top is closed.
+    > Note: It may appear loose. The gaps will be filled when the top is closed.
+    ![](gift/prep-box-3.jpg)
 
 1. Insert the lamp.
+    ![](gift/prep-box-4.jpg)
 
 1. Pick some fun extra eye colors. Snap them into the holders.
+    ![](gift/prep-box-5.jpg)
 
 1. Add a sheet of protective foam.
+    ![](gift/prep-box-6.jpg)
 
 1. Add the QR Guide.
+    ![](gift/prep-box-7.jpg)
 
 1. Close the box. Smile for a job well done! 🤓
+    ![](gift/prep-box-8.jpg)
 
 ## 3. Ship the gift
 
