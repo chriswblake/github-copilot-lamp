@@ -38,8 +38,9 @@ The .STL files for all of the printable parts are in the `/models` folder.
 - Avoid sparse infill for the backplate to strengthen the connectors.
 - Avoid sparse infill for the LED chamber if you don't want to see a pattern through the glowing.
 - For a textured look, consider a textured plate. [[US]](https://us.store.bambulab.com/products/bambu-dual-sided-textured-pei-plate)
+- The `eye.stl` model may break with more brittle filaments like PLA Silk. There is an `eye-2mm.stl` file for this but it is more difficult to remove.
 
-> [!NOTE]  
+> [!Tip]  
 > The backplate, faceplate, and eyes don't have to be black.
 > Try printing them in another color or with fun multicolor or shiny filament! 🦄 🤩
 
