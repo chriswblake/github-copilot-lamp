@@ -24,7 +24,7 @@ Want full control over your lamp? Connect it to your WiFi network! (2.4ghz only)
 If not connected to an existing wifi, it will broadcast a tempory wifi network for setup.
 
 1. On your phone or computer, search for the wifi network `copilot-lamp` and connect to it.
-    - Default password is `copilot-lamp` or `wled-1234`.
+    - Default password is `copilot-lamp` or `wled1234`.
 1. Wait a moment and a temporary login-style web browser will appear. If no browser appears, open a web browser navigate to http://copilot-lamp.local.
 1. In the top right, click the **Config** gear icon to open the settings menu.
 1. Select **WiFi Setup**.
